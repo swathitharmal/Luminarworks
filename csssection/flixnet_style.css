@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+}
+.mainhead{
+    text-align: center;
+    color:white ;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main{
+    border:1.5px solid orangered;
+    width: 441px;
+    
+    height: 550px;
+    background-color: blue;
+    color: white;
+    text-align:center;
+    float:left;
+}
+.life-div{
+    background-color:orangered;
+}

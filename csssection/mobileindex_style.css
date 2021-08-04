@@ -1,0 +1,34 @@
+body{
+    background-color: black;
+}
+.main-head{
+    text-align: center;
+color: purple;
+
+}
+.sub{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    color: hotpink
+    ;
+}
+.main{
+    border:1px solid white;
+    width: 300px;
+    height: 300px;
+    background-color: purple;
+    color: wheat;
+    text-align: center;
+    float:left
+}
+.galaxy-div{
+    background-color: rebeccapurple;
+}
+.poco-div{
+    background-color: green;
+}
+.main h2{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}

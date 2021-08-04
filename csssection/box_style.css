@@ -1,0 +1,17 @@
+.main{
+    border:1px solid black;
+    width: 700px;
+    height: 100px;
+    background-color: brown;
+}
+
+
+.second{
+    border: 1px solid pink;
+    width:50%;
+    height: 100px;
+    background-color: purple;
+    margin-left: 40px;
+    margin-top: 50px;
+    padding-left: 10px;
+}

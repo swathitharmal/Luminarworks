@@ -1,0 +1,82 @@
+body{
+    background-color: black;
+}
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Permanent+Marker&display=swap');
+.main-head{
+font-family: 'Anton', sans-serif;
+font-family: 'Permanent Marker', cursive;
+text-align: center;
+color:white;
+}
+.main{
+    border:4px solid black;
+    width:111.1px;
+    height:155px;
+    float: left;
+}
+.a{
+    background-color:black;
+}
+.b{
+    background-color: grey;
+}
+.c{
+    background-color: palegreen;
+}
+.d{
+    background-color: greenyellow;
+}
+.e{
+    background-color: green;
+}
+.f{
+    background-color: palegoldenrod;
+}
+.g{
+    background-color: orangered;
+}
+.h{
+    background-color: coral;
+}
+.i{
+    background-color: palevioletred;
+}
+.j{
+    background-color: violet;
+}
+.k{
+    background-color: darkviolet;
+}
+.l{
+    background-color: mediumpurple;
+}
+.m{
+    background-color: lightslategrey;
+}
+.n{
+    background-color: lightskyblue;
+}
+.o{
+    background-color: greenyellow;
+}
+.p{
+    background-color: orange;
+}
+.q{
+    background-color: crimson;
+}
+.r{
+    background-color: brown;
+}
+.s{
+    background-color: springgreen;
+}
+.t{
+    background-color: seagreen;
+}
+.u{
+    background-color: mediumpurple;
+}
+.v{
+    background-color: darkmagenta;
+}

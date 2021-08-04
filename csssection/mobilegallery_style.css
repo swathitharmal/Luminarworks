@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Permanent+Marker&display=swap');
+.main-head{
+font-family: 'Anton', sans-serif;
+font-family: 'Permanent Marker', cursive;
+text-align: center;
+}
+.row{
+    width:100%;
+    position: relative;
+   
+
+}
+.col-1,.col-2,.col-3{
+    border: 1px solid black;
+    width:30%;
+}
+.col-1{
+    
+    position:absolute;
+    top:0;
+    left:2%;
+    
+
+}
+.col-2{
+   
+    position:absolute;
+    top:0;
+    left:34%;
+    
+
+}
+.col-3{
+    
+    position:absolute;
+    top:0;
+    left:66%;
+    
+
+}
+.col img{
+    width:20%;
+    height:20%;
+
+}
+.col h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+© 2021 GitHub, Inc.

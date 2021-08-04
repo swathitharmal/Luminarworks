@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 name="lit">Document Object Model</h1>
+    <h2>DOM attributes</h2>
+    <ul>
+        <li class="one">URL</li>
+        <li class="one">head</li>
+        <li class="one">links</li>
+    </ul>
+
+    <h2 id="lst">Document Object Model Method</h2>
+
+    <ul>
+        <li >document.getElementsByTagName()</li>
+        <li>document.getElementById()</li>
+        <li>document.getElementByClassName()</li>
+        <li>document.getElementName()</li>
+        <li>document.querySelector()</li>
+        <li>document.querySelectorAll()</li>
+
+
+    </ul>
+    <a href="#">one</a>
+    <a href="#">two</a>
+    <a href="#">three</a>
+
+
+</body>
+
+<script>
+
+    // var lis=document.getElementsByTagName("li")
+    // for(tag of lis){
+    //     tag.style.color="blue"
+    // }
+
+    // var item=document.getElementById("lst")
+    // item.style.color="green"
+
+    //  var items=document.getElementsByClassName("one")   
+    //  for(item of items){
+    //     item.style.color="blue"
+    //  }
+
+    // var item=document.getElementsByName("lit")
+    // for(tag of item){
+    //     tag.style.color="red"
+    // }
+
+
+    // query selector
+
+    // var list=document.querySelectorAll("li")
+    // for(let tag of list){
+    //     tag.style.color="blue"
+    // }
+
+    // var list=document.querySelectorAll(".one")
+    // for(let tag of list){
+    //     tag.style.color="cyan"
+    // }
+
+    // var list=document.querySelector("#lst")
+    // list.style.color="blue"
+   
+        
+        // var htwo=document.querySelector("h2")
+        // htwo.textContent="DocumentObjectMethodModel"
+        // htwo.style.color="violet"
+
+        var htwo=document.querySelector("h2")
+        htwo.innerHTML="<em>DocumentObjectMethodModel<em>"
+        htwo.style.color="violet"
+    
+
+
+</script>
+
+</html>
+

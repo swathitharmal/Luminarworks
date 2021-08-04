@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>qwerty</h1>
+</body>
+<script>
+    
+    // localStorage.setItem("book_name","Harry Potter")
+    // localStorage.setItem("author","J.K Rowling")
+    // localStorage.setItem("price",500)
+
+    // let b_name=localStorage.getItem("book_name")
+    // console.log(uname)
+
+    // console.log(localStorage.key(0))
+    // console.log(localStorage.key(1))
+
+
+    for(let i=0;i<localStorage.length;i++){
+        // console.log(localStorage.key(i))
+        let key=localStorage.key(i)
+        let val=localStorage.getItem(key)
+        console.log(key,val);
+    }
+
+</script>
+</html>
